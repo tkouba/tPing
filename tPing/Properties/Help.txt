@@ -1,0 +1,14 @@
+Usage: tping target_name -p port [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+             [-r count] [-s count] [[-j host-list] | [-k host-list]]
+             [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+             [-4] [-6] 
+
+Options:
+    -t             Attempt to connect to the specified host until stopped.
+                   To stop - press Control-C or Control-Break.
+    -a             Resolve address to hostname.
+    -n count       Number of attempts to connect.
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -p port        Connect to port.
+    -4             Force using IPv4.
+    -6             Force using IPv6.

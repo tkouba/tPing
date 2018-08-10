@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "tPing": {
+      "commandName": "Project",
+      "commandLineArgs": "www.seznam.cz -n 6 -p 80"
+    }
+  }
+}
